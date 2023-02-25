@@ -1,0 +1,90 @@
+.para_1{
+    font-size:32px;
+    font-family:"Adobe Arabic";
+    font-weight:bold;
+    margin-bottom:0px;
+    margin-top:4px;
+    text-align: center;
+  
+  }
+  .line_width{
+    height:3px;
+   background-color:black;
+   width:94%;
+   
+  }
+  .project_container{
+    margin-top:5px;
+    padding-left:20px;
+  }
+  .project_heading{
+    font-size:31px;
+    color:black;
+    font-family:"Adobe Arabic";
+   
+  }
+  .project_paragraph{
+    font-size:28px;
+    font-family:"Adobe Arabic";
+    color:black;
+  }
+  .list_item{
+    font-size:26px;
+    font-family:"Adobe Arabic";
+    color:black;
+    padding:3px;
+  }
+  .heading_tech{
+    font-size:28px;
+    font-family:"Adobe Arabic";
+    color:black;
+    font-style:bold;
+  }
+  .span_heading{
+    font-size:24px;
+    font-family:"Adobe Arabic";
+    color:black;
+    font-weight:normal;
+    padding-left:14px;
+  }
+  .project_alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .anc{
+    font-size:28px;
+    font-family:"Adobe Arabic";
+    color:black;
+    font-weight:normal;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top:23px;
+   
+  }
+  
+@media (max-width: 768px) {
+    .project_alignment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+      }
+      .anc{
+           font-size:24px;
+           font-family:"Adobe Arabic";
+         color:black;
+    font-weight:normal;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom:5px;
+   
+    padding-top:0px;
+   
+      }
+      .heading_tech{
+         margin-bottom:0px;    
+          }
+     
+  }

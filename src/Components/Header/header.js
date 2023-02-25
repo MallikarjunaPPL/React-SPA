@@ -1,8 +1,8 @@
 import React from 'react';
-import Bottom from "../Bottom";
+import Bottom from "../Bottom/bottom";
 
 import logo from "../../Images/sm logo.jpg";
-import "./index.css";
+import "./header.css";
 const header = () => {
     return (
         <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./index.css";
+import "./about.css";
 
 const about = () => {
     return (
@@ -23,10 +23,6 @@ One of the key benefits of React is its flexibility. It can be used to build UIs
 React also has a strong and active community, with many open-source projects, tools, and resources available for developers. Additionally, Facebook provides extensive documentation and support for React, making it easy for developers to learn and get started with the library.
 
 Overall, React is a powerful and flexible library that can be used to build high-quality user interfaces for a wide range of applications. As a React developer, it is important to have a strong understanding of its core concepts and features, as well as the broader ecosystem of tools and libraries that surround it.
-
-
-
-
             </p>
            
         </div>

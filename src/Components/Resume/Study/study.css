@@ -1,0 +1,28 @@
+.alignment{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:23px;
+   
+
+}
+.paragraph_study{
+    font-size:28px;
+    font-family:"Adobe Arabic";
+   
+  }
+.para_study{
+    font-weight:200;
+    font-size:24px;
+}
+@media (max-width:912px){
+    .para_study{
+        font-weight:200;
+        font-size:17px;
+    }
+    .paragraph_study{
+        font-size:21px;
+        font-family:"Adobe Arabic";
+       
+      }
+}

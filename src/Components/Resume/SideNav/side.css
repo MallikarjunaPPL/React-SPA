@@ -1,0 +1,73 @@
+.side_nav{
+    height:100%;
+    position:fixed;
+    left:0;
+    margin-top:125px;
+    background-color: chartreuse;
+    width:160px;
+    padding-right:24px;
+  }
+  
+  .anchor_hidden{
+    text-decoration: none;
+    font-family:"Adobe Arabic";
+    font-size:21px;
+    display:block;
+    padding-left:20px;
+    margin-top:22px;
+  
+  }
+  .manage_icon{
+    display: flex;
+    flex-direction: row;
+  
+    
+  }
+  .icon_size{
+    font-size:26px;
+    margin-top: 28px;
+    padding-left:9px;
+  
+    
+  }
+  .icon_activity{
+    font-size:36px;
+    margin-top: 20px;
+    padding-left:1px;
+    
+  }
+  .icon_achieve{
+    font-size:30px;
+    margin-top: 20px;
+    padding-left:6px;
+    
+  }
+  
+@media (max-width: 576px) {
+   
+   
+    .icon_size{
+      font-size:30px;
+      padding-left:15px;
+     
+    }
+    .icon_achieve{
+      font-size: 30px;
+      padding-left:9px;
+      
+    }
+    .icon_activity{
+      font-size: 50px;
+      padding-left:5px;
+    }
+   
+    .side_nav{
+      width:50px;
+      margin-top:181px;
+      
+    }
+    .anchor_hidden{
+     display:none;
+    }
+ 
+  }

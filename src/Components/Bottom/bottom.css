@@ -27,12 +27,7 @@
 .btn_edit{
     margin-right:140px;
 }
-.sel_cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 @media (max-width:576px){
     .btn_edit{
         margin-right:10px;

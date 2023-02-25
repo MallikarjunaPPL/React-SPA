@@ -1,6 +1,6 @@
 import {MdMarkEmailRead,MdMobileScreenShare} from "react-icons/md"
 import {AiFillLinkedin} from "react-icons/ai"
-import "./index.css";
+import "./contact.css";
 import logo_1 from "../../Images/contact.jpg";
 const contact = () => {
     return (

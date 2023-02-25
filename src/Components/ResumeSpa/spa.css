@@ -1,0 +1,63 @@
+.app-conatiner{
+    width:96%;
+    background-color: white;
+    padding:10px;
+    margin:25px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 4px solid #551e53;
+    border-right: 4px solid #551e53;
+    border-radius: 12px;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  
+  .para_1{
+    font-size:34px;
+    font-family:"Adobe Arabic";
+    font-weight:bold;
+    margin-bottom:0px;
+    margin-top:10px;
+  
+  }
+  .line{
+    height:2px;
+   background-color:black;
+   width:94%;
+   
+  }
+  
+  
+  .background{
+    background-color: grey;
+   margin-top:0px;
+   margin-bottom:0px;
+   padding-left: 160px;
+    padding-right: 120px;
+  
+  }
+  
+  
+  @media (max-width: 576px) {
+  
+    .app-conatiner{
+      width:82%;
+      margin-top:0px;
+    margin-bottom:0px;
+    padding:17px;
+    margin-left:40px;
+   
+     
+    }
+   
+    
+    .background{
+      padding-left:30px;  
+      padding-right:30px;  
+      margin-top:0px;
+      margin-bottom:0px;
+      margin-left:2px;
+    }
+    
+  
+  }

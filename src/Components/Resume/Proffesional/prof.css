@@ -1,0 +1,37 @@
+.para_1{
+    font-size:32px;
+    font-family:"Adobe Arabic";
+    font-weight:bold;
+    margin-bottom:0px;
+    margin-top:4px;
+    text-align: center;
+  
+  }
+  .line_width{
+    height:3px;
+   background-color:black;
+   width:94%;
+   
+  }
+  .alignment{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:18px;
+   
+
+}
+.paragraph{
+    font-size:24px;
+    font-family:"Adobe Arabic";
+   
+  }
+  .list_item{
+    font-size:26px;
+    font-family:"Adobe Arabic";
+    color:black;
+    padding:3px;
+  }
+  .span_ele{
+    font-weight:bold;
+  }
