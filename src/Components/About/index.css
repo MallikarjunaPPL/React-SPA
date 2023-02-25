@@ -1,0 +1,60 @@
+.about_cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.about_main_cont{
+    border-style: solid;
+  border-radius:5px;
+  border-width:4px;
+  margin-top:155px;
+  color:darkmagenta;
+  margin-left:39px;
+}
+.heading_abt{
+    font-family: "Adobe Arabic";
+    font-size:29px;
+    font-weight:400;
+    color:black;
+    padding-right:125px;
+}
+.hr_width{
+    height:2px;
+    width:90%;
+    background-color:black;
+}
+.abt_para{
+    color:black;
+    font-family:"Adobe Arabic";
+    font-size:19px;
+    padding-top:2px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:2px;
+
+}
+@media (max-width:576px){
+    .about_main_cont{
+        margin-top:165px;
+      margin-left:20px;
+    }
+    .abt_para{
+        padding-left:15px;
+    padding-right:15px;
+    padding-bottom:4px;
+        padding-top:4px;
+        font-size:17px;
+    }.heading_abt{
+        font-family: "Adobe Arabic";
+        font-size:29px;
+        font-weight:400;
+        color:black;
+        padding-right:20px;
+    }
+    
+    
+      
+}

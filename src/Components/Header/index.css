@@ -1,0 +1,31 @@
+.header_cont{
+    
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.display_cont{
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding:4px;
+    position:fixed;
+    width:100%;
+    top:0;
+    
+}
+.image_wid{
+    height:90px;
+    width:120px;
+    border-radius:80px;
+    
+}
+.header_h1{
+    font-family:"Adobe Arabic";
+    font-size:24px;
+    color:black;
+    font-weight:400;
+    text-align: center;
+    
+}

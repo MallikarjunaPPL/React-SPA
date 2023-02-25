@@ -1,0 +1,40 @@
+.bottom_cont{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.select_sty{
+    color:black;
+   
+    font-size:16px;
+
+}
+.select{
+    background-color:white;
+    border-color:black;
+    font-size:15px;
+}
+.button_react{
+   padding-left:10px;
+   border:none;
+   font-size:22px;
+   background-color: aqua;
+   color:darkmagenta;
+}
+.btn_edit{
+    margin-right:140px;
+}
+.sel_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:576px){
+    .btn_edit{
+        margin-right:10px;
+    }
+}
