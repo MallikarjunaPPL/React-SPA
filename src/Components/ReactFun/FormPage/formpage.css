@@ -52,7 +52,7 @@ font-weight:400;
     font-size:21px;
     font-family:"Adobe Arabic";
 }
-@media (max-width:912px){
+@media (max-width:920px){
     .label_sty{
         font-size:21px;
     }
