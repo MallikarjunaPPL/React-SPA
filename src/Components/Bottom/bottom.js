@@ -12,12 +12,20 @@ const bottom=()=>{
            
            <Link to="/about"><button  className='button_react'>About</button></Link>
           
-           <Link to="/res"><button className='button_react' >Resume Spa</button></Link>
-           <Link to="/fun"><button className='button_react' >React Spa</button></Link>
+<div class="dropdown">
+  <button class="dropbtn">React Spa</button>
+  <div class="dropdown-content">
+  <Link to="/res"><p className='dropdownLink'>Resume Spa</p></Link>
+  <Link to="/fun"><p className='dropdownLink'>Resume Fun</p></Link>
+
+  </div>
+</div>
+
+           
             
             <Link to="/contact"> <button className='button_react btn_edit'>Contact</button></Link>
            
-        </div>
+        </div> 
        
         </>
     );

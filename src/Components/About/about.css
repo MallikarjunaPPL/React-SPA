@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-color: lightgoldenrodyellow
     
 }
 .about_main_cont{
     border-style: solid;
   border-radius:5px;
   border-width:4px;
-  margin-top:155px;
+  margin-top:175px;
   color:darkmagenta;
   margin-left:39px;
 }
