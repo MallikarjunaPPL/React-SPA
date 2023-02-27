@@ -4,6 +4,7 @@ import Contact from "./Components/Contact/contact"
 import ResumeSpa from "./Components/ResumeSpa/spa"
 import Functionalities from "./Components/Functionalities/index"
 import { Route,BrowserRouter,Routes} from "react-router-dom";
+import Home from "./Components/Home/index";
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
    <Route exact path="/contact" element={ <Contact/>}/>
    <Route exact path="/res" element={ <ResumeSpa/>}/>
    <Route exact path="/fun" element={ <Functionalities/>}/>
+   <Route exact path="/" element={<Home/>}/>
     </Routes>
     </div>
     </div>

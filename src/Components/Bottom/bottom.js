@@ -16,15 +16,15 @@ const bottom=()=>{
   <button class="dropbtn">React Spa</button>
   <div class="dropdown-content">
   <Link to="/res"><p className='dropdownLink'>Resume Spa</p></Link>
-  <Link to="/fun"><p className='dropdownLink'>Resume Fun</p></Link>
+  <Link to="/fun"><p className='dropdownLink'>React Fun</p></Link>
 
   </div>
 </div>
 
            
             
-            <Link to="/contact"> <button className='button_react btn_edit'>Contact</button></Link>
-           
+            <Link to="/contact"> <button className='button_react '>Contact</button></Link>
+            <Link to="/"><button  className='button_react btn_edit'>Home</button></Link>
         </div> 
        
         </>

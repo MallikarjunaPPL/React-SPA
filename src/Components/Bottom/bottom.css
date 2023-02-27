@@ -25,7 +25,7 @@
    color:darkmagenta;
 }
 .btn_edit{
-    margin-right:140px;
+    margin-right:115px;
 }
 .dropdown:hover{
     background-color: aqua;
@@ -65,6 +65,6 @@
 
 @media (max-width:576px){
     .btn_edit{
-        margin-right:10px;
+        margin-right:1px;
     }
 }
