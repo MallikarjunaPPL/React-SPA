@@ -1,10 +1,13 @@
 import React from 'react';
 import "./about.css";
+import rea from "../../Images/react.avif";
 
 const about = () => {
     return (
         <div className='about_main_cont'>
         <div className='about_cont'>
+            <img className="img_sty" src={rea} alt="Wrong_Url"/>
+            <div>
             <h1 className='heading_abt'>
                 About
             </h1>
@@ -24,7 +27,7 @@ React also has a strong and active community, with many open-source projects, to
 
 Overall, React is a powerful and flexible library that can be used to build high-quality user interfaces for a wide range of applications. As a React developer, it is important to have a strong understanding of its core concepts and features, as well as the broader ecosystem of tools and libraries that surround it.
             </p>
-           
+            </div>
         </div>
         </div>
     );
